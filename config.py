@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("23028479"))
+API_HASH = getenv("c1e6a93b04c0810a5c282d8d8d44ea6f")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7892211587:AAGrn0aYADE75zX9pJOrofw0iaTbTwv1bPk")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://GOKU:MISSBHOPALI@goku.pzzsl8d.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1001964294961))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002252184024))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5111294407))
+OWNER_ID = int(getenv("OWNER_ID", 7038202445))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Shorekeeper_updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anime_Group_India_Chat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -62,11 +62,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("BQGWS8YAcExf2Cp-m9-Z388GFSKeUyXsv-rauB0jNKp6BQRnlxZoflKYQJsUDpk0ii2VAAmduJZ79ncqyuejJyckRijhrWkWzQdbFiz-eH95xLciXrPprMBVDDup95_s81jAjIWJ2zO0_Vvg7RMNIY0weyX36A66oL9KS9GlkZb0tGOFrXJZG1qeio5LsvP1j8adtmGhcA_P6l8CXB8mMU-L_P21bFOIsgqlUTfYuhNPbsjZx-oTKNsr1Mf51XR7pGiYbdUIf9t9dCIsyAg_jKEyoBeTAvfn8UDCp2mnVMgiR8nYRmOZh3sRwrXcrFArpcZD-v49NFm-pUfsj1xZk6L2D77zIwAAAAG-IuuuAA", None)
+STRING2 = getenv("BQGWS8YAcExf2Cp-m9-Z388GFSKeUyXsv-rauB0jNKp6BQRnlxZoflKYQJsUDpk0ii2VAAmduJZ79ncqyuejJyckRijhrWkWzQdbFiz-eH95xLciXrPprMBVDDup95_s81jAjIWJ2zO0_Vvg7RMNIY0weyX36A66oL9KS9GlkZb0tGOFrXJZG1qeio5LsvP1j8adtmGhcA_P6l8CXB8mMU-L_P21bFOIsgqlUTfYuhNPbsjZx-oTKNsr1Mf51XR7pGiYbdUIf9t9dCIsyAg_jKEyoBeTAvfn8UDCp2mnVMgiR8nYRmOZh3sRwrXcrFArpcZD-v49NFm-pUfsj1xZk6L2D77zIwAAAAG-IuuuAA", None)
+STRING3 = getenv("BQGWS8YAcExf2Cp-m9-Z388GFSKeUyXsv-rauB0jNKp6BQRnlxZoflKYQJsUDpk0ii2VAAmduJZ79ncqyuejJyckRijhrWkWzQdbFiz-eH95xLciXrPprMBVDDup95_s81jAjIWJ2zO0_Vvg7RMNIY0weyX36A66oL9KS9GlkZb0tGOFrXJZG1qeio5LsvP1j8adtmGhcA_P6l8CXB8mMU-L_P21bFOIsgqlUTfYuhNPbsjZx-oTKNsr1Mf51XR7pGiYbdUIf9t9dCIsyAg_jKEyoBeTAvfn8UDCp2mnVMgiR8nYRmOZh3sRwrXcrFArpcZD-v49NFm-pUfsj1xZk6L2D77zIwAAAAG-IuuuAA", None)
+STRING4 = getenv("BQGWS8YAcExf2Cp-m9-Z388GFSKeUyXsv-rauB0jNKp6BQRnlxZoflKYQJsUDpk0ii2VAAmduJZ79ncqyuejJyckRijhrWkWzQdbFiz-eH95xLciXrPprMBVDDup95_s81jAjIWJ2zO0_Vvg7RMNIY0weyX36A66oL9KS9GlkZb0tGOFrXJZG1qeio5LsvP1j8adtmGhcA_P6l8CXB8mMU-L_P21bFOIsgqlUTfYuhNPbsjZx-oTKNsr1Mf51XR7pGiYbdUIf9t9dCIsyAg_jKEyoBeTAvfn8UDCp2mnVMgiR8nYRmOZh3sRwrXcrFArpcZD-v49NFm-pUfsj1xZk6L2D77zIwAAAAG-IuuuAA", None)
+STRING5 = getenv("BQGWS8YAcExf2Cp-m9-Z388GFSKeUyXsv-rauB0jNKp6BQRnlxZoflKYQJsUDpk0ii2VAAmduJZ79ncqyuejJyckRijhrWkWzQdbFiz-eH95xLciXrPprMBVDDup95_s81jAjIWJ2zO0_Vvg7RMNIY0weyX36A66oL9KS9GlkZb0tGOFrXJZG1qeio5LsvP1j8adtmGhcA_P6l8CXB8mMU-L_P21bFOIsgqlUTfYuhNPbsjZx-oTKNsr1Mf51XR7pGiYbdUIf9t9dCIsyAg_jKEyoBeTAvfn8UDCp2mnVMgiR8nYRmOZh3sRwrXcrFArpcZD-v49NFm-pUfsj1xZk6L2D77zIwAAAAG-IuuuAA", None)
 
 
 BANNED_USERS = filters.user()
@@ -77,17 +77,12 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg",
-                 "https://te.legra.ph/file/c15d01b3e6b40ea141dc9.jpg",
-                 "https://te.legra.ph/file/58b491b39cee854695fa9.jpg",
-                 "https://telegra.ph/file/17b5a312f5385556787e0.jpg",
-                 "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg",
-                 "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"]
+START_IMG_URL = ["https://envs.sh/AJT.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/87f680aead03443f291b0.jpg"
+    "PING_IMG_URL", "https://envs.sh/AJ_.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/AJA.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
